@@ -10,7 +10,7 @@
 <br>Add bot account username as developer to main reddit account.
 <br>Use bot accounts username password in python file.
 # Update
-<br>Now it detects broken img and deletes them. Converts png to jpg.
+<br>Now it detects broken img and deletes them. Also converts png to jpg.
 # Screenshot:
 <p align="center">
   <a href="https://github.com/ny4rlk0/reddit-jpg-downloader/blob/main/1.JPG">
