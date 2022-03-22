@@ -9,6 +9,7 @@
 <br>Get the required info from there.
 <br>Add bot account username as developer to main reddit account.
 <br>Use bot accounts username password in python file.
+<br>There is a reason for time.sleep() So if you don't understand what it does. Just leave it there. (It's about Reddit Api Limits.)
 # Update
 <br>Now it detects broken img and deletes them. Also converts png to jpg.
 <br>Removes all special characters from filenames. Just names them like 0.jpg,1.jpg... etc.
