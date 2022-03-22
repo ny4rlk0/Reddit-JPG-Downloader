@@ -11,6 +11,7 @@
 <br>Use bot accounts username password in python file.
 # Update
 <br>Now it detects broken img and deletes them. Also converts png to jpg.
+<br>Removes all special characters from filenames. Just names them like 0.jpg,1.jpg... etc.
 # Screenshot:
 <p align="center">
   <a href="https://github.com/ny4rlk0/reddit-jpg-downloader/blob/main/1.JPG">
