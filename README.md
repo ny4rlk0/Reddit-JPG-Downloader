@@ -1,5 +1,5 @@
 # reddit-jpg-downloader
-<br>Downloads jpg's from selected reddit community. Delete the broken ones.
+<br>Downloads jpg's from selected reddit community.
 <br>Create spare reddit account.(Bot Account)
 <br>Login your main reddit acc.
 <br>Goto https://www.reddit.com/prefs/apps
