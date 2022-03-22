@@ -44,7 +44,7 @@ for name in file_list:
     if file_type=='png':#convert png to jpg
         os.rename(new_file_name,'temp.jpg')
         image = cv2.imread('temp.jpg')
-        cv2.imwrite(new_file_name, image, [int(cv2.IMWRITE_JPEG_QUALITY), 95])
+        cv2.imwrite(new_file_name, image, [int(cv2.IMWRITE_JPEG_QUALITY), 95]) #change 95 to 100 for max quality.
         os.remove('temp.jpg')
         counter+=1
     if file_type=='jpeg':
