@@ -1,5 +1,6 @@
 #coding: utf-8
 import os,time
+from random import randint
 os.system("pip install praw opencv-python myigbot")
 import praw,imghdr,cv2
 import urllib.request
@@ -22,8 +23,10 @@ for submission in reddit.subreddit(subreddit).hot(limit = 120):# 1 min = 60 pics
 for title in url_title:
 	url_parsed.append(''.join(s for s in title if s.isalnum()))
 for index in range(len(url)):
-    urllib.request.urlretrieve(url[index],path+url_parsed[index]+".jpg")
-    time.sleep(1)
+    try:
+        urllib.request.urlretrieve(url[index],path+url_parsed[index]+".jpg")
+        time.sleep(randint(1,6))
+    except:continue
 for root, dirs, files in os.walk(os.getcwd()):
     for file in files:
         if file.endswith(".JPG") or file.endswith(".jpg"):
